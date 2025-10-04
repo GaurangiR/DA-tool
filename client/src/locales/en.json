@@ -1,0 +1,174 @@
+{
+  "welcome": "Welcome {{name}}!",
+  "dashboardMessage": "Your analytics and uploads will appear here.",
+  "submit": "Submit",
+  "download": "Download",
+  "generateInsights": "Generate Insights",
+  "logout": "Logout",
+  "dashboard": {
+    "welcomeMessage": "You have successfully logged in. Your analytics and uploads will appear here.",
+    "pinnedCharts": "Your Pinned Charts",
+    "type": "Type",
+    "axis": "X: {{x}}, Y: {{y}}",
+    "unpin": "Unpin"
+  },
+  "settings": {
+    "updateProfile": "Update Profile",
+    "updateSuccess": "Profile updated successfully!",
+    "updateFail": "Update failed.",
+    "namePlaceholder": "Your Name",
+    "emailPlaceholder": "Email Address",
+    "passwordPlaceholder": "New Password (optional)",
+    "updateButton": "Update Profile"
+  },
+
+  "sidebar": {
+    "dashboard": "Dashboard",
+    "uploadExcel": "Upload Excel",
+    "analyzeData": "Analyze Data",
+    "history": "History",
+    "aiInsights": "AI Insights",
+    "chatWithFile": "Chat With File",
+    "settings": "Settings",
+    "logoAlt": "SheetSense Logo"
+  },
+  "upload": {
+    "title": "Upload Excel File",
+    "supportedFormats": "Supported formats: .xls, .xlsx",
+    "pleaseSelectFile": "Please select a file.",
+    "fileLoadedLocally": "✅ File loaded locally. You can now analyze or upload.",
+    "failedToParseFile": "❌ Failed to parse the file.",
+    "failedToReadFile": "❌ Failed to read the file.",
+    "uploadButton": "Upload",
+    "uploadSuccess": "✅ File uploaded to server.",
+    "uploadFailed": "❌ Upload failed.",
+    "chooseFile": "Choose File",
+    "analyzeWithoutSaving": "Analyze without saving",
+    "uploadToServer": "Upload to server"
+  },
+  "analyze": {
+    "title": "Analyze Your Data",
+    "chart": "Chart",
+    "xAxis": "X Axis",
+    "yAxis": "Y Axis",
+    "chooseOption": "-- Choose --",
+    "showAllCharts": "Show All Charts",
+    "hideAllCharts": "Hide All Charts",
+    "pinChart": "Pin Chart",
+    "pinSuccess": "Chart pinned successfully",
+    "pinError": "Failed to pin chart",
+    "chart3DOptions": "3D Chart Options",
+    "download2D": "Download Chart as PNG",
+    "download3D": "Download 3D Chart",
+    "chartType": "Chart Type:",
+    "selectFile": "Select File:",
+    "chooseFilePlaceholder": "-- Choose a file --",
+    "local": "Local",
+    "noLocalFile": "No local file to save.",
+    "fileSaved": "File saved to dashboard.",
+    "fileSaveFailed": "Failed to save file.",
+    "saveToDashboard": "Save to Dashboard",
+    "saved": "Saved",
+    "chartTypes": {
+      "none": "None",
+      "bar": "Bar",
+      "line": "Line",
+      "area": "Area",
+      "pie": "Pie",
+      "doughnut": "Doughnut",
+      "polar": "Polar Area",
+      "radar": "Radar",
+      "scatter": "Scatter",
+      "bubble": "Bubble",
+      "funnel": "Funnel",
+      "waterfall": "Waterfall"
+    }
+  },
+  "loading": "Loading...",
+  "history": {
+    "uploadedFiles": "Uploaded Files",
+    "buttons": {
+      "view": "View",
+      "download": "Download",
+      "delete": "Delete"
+    },
+    "table": {
+      "filename": "📄 Filename",
+      "uploadDate": "🗓 Upload Date",
+      "viewDownload": "🔍 View / ⬇️ Download",
+      "delete": "❌ Delete",
+      "noFiles": "No files uploaded yet."
+    }
+  },
+  "aiInsights": {
+    "fetchError": "Failed to fetch insights. Please try again.",
+    "explainError": "Failed to generate explanation. Please try again.",
+    "shareLinkLabel": "Share Link:",
+    "confirmText": "Are you sure you want to generate insights?",
+    "cancelText": "Cancel",
+    "proceedText": "Proceed",
+    "dataPrivacyWarning": {
+      "title": "Data Privacy Warning",
+      "message": "By proceeding, you agree to share your selected data with our AI service (Gemini/OpenAI) to generate insights. Sensitive or personal data may be analyzed."
+    },
+    "buttons": {
+      "cancel": "Cancel",
+      "proceed": "Proceed"
+    },
+    "emailInput": {
+      "placeholder": "Enter email address"
+    },
+    "emailbuttons": {
+      "sendEmail": "Send Email"
+    },
+    "exportShare": {
+      "exportTxt": "Export .txt",
+      "exportPdf": "Export .pdf",
+      "shareLink": "Share Link",
+      "emailLink": "Email Link",
+      "explainInsights": "Explain Insights",
+      "explaining": "Explaining..."
+    },
+    "fileSelector": {
+      "label": "Select File",
+      "chooseOption": "-- Choose File --",
+      "local": "(Local)"
+    },
+    "insightControls": {
+      "generate": "Generate Insights",
+      "generating": "Generating..."
+    },
+    "trendDetection": {
+      "title": "Trend Detection",
+      "selectNumeric": "Select Numeric Column",
+      "selectDate": "Select Date Column (optional)",
+      "detectBtn": "Detect Trend",
+      "detecting": "Detecting...",
+      "summary": "Trend Summary:",
+      "downloadPdf": "Download PDF",
+      "downloadTxt": "Download TXT",
+      "explain": "Explain Trends",
+      "explaining": "Explaining...",
+      "errorDetect": "Failed to detect trend. Please try again.",
+      "errorExplain": "Failed to generate explanation. Please try again."
+    }
+  },
+  "chatWithFile": {
+    "title": "Chat with Your File Data",
+    "selectOrUpload": "Select or upload file:",
+    "chooseFile": "-- Choose a file --",
+    "askQuestion": "Ask a question about your data:",
+    "placeholder": "Type your question here...",
+    "thinking": "Thinking...",
+    "ask": "Ask",
+    "aiResponse": "AI Response:",
+    "downloadPdf": "Download as PDF",
+    "downloadTxt": "Download as TXT"
+  },
+  "Selected file is empty or invalid.": "Selected file is empty or invalid.",
+  "Failed to parse the Excel file.": "Failed to parse the Excel file.",
+  "Failed to read the file.": "Failed to read the file.",
+  "Please enter a question.": "Please enter a question.",
+  "No data to analyze. Please select or upload a valid file.": "No data to analyze. Please select or upload a valid file.",
+  "Failed to get a response. Please try again.": "Failed to get a response. Please try again."
+}

@@ -1,0 +1,174 @@
+{
+  "welcome": "¡Bienvenido {{name}}!",
+  "dashboardMessage": "Tus análisis y cargas aparecerán aquí.",
+  "submit": "Enviar",
+  "download": "Descargar",
+  "generateInsights": "Generar insights",
+  "logout": "Cerrar sesión",
+  "dashboard": {
+    "welcomeMessage": "Has iniciado sesión con éxito. Tus análisis y cargas aparecerán aquí.",
+    "pinnedCharts": "Tus gráficos fijados",
+    "type": "Tipo",
+    "axis": "X: {{x}}, Y: {{y}}",
+    "unpin": "Desfijar"
+  },
+  "settings": {
+    "updateProfile": "Actualizar perfil",
+    "updateSuccess": "¡Perfil actualizado con éxito!",
+    "updateFail": "La actualización falló.",
+    "namePlaceholder": "Tu nombre",
+    "emailPlaceholder": "Dirección de correo electrónico",
+    "passwordPlaceholder": "Nueva contraseña (opcional)",
+    "updateButton": "Actualizar perfil"
+  },
+
+  "sidebar": {
+    "dashboard": "Panel",
+    "uploadExcel": "Subir Excel",
+    "analyzeData": "Analizar datos",
+    "history": "Historial",
+    "aiInsights": "Insights IA",
+    "chatWithFile": "Chatear con archivo",
+    "settings": "Configuración",
+    "logoAlt": "Logo SheetSense"
+  },
+  "upload": {
+    "title": "Subir archivo Excel",
+    "supportedFormats": "Formatos soportados: .xls, .xlsx",
+    "pleaseSelectFile": "Por favor, seleccione un archivo.",
+    "fileLoadedLocally": "✅ Archivo cargado localmente. Ahora puede analizar o subir.",
+    "failedToParseFile": "❌ Error al analizar el archivo.",
+    "failedToReadFile": "❌ Error al leer el archivo.",
+    "uploadButton": "Subir",
+    "uploadSuccess": "✅ Archivo subido al servidor.",
+    "uploadFailed": "❌ Error al subir.",
+    "chooseFile": "Elegir archivo",
+    "analyzeWithoutSaving": "Analizar sin guardar",
+    "uploadToServer": "Subir al servidor"
+  },
+  "analyze": {
+    "title": "Analiza tus datos",
+    "chart": "Gráfico",
+    "xAxis": "Eje X",
+    "yAxis": "Eje Y",
+    "chooseOption": "-- Elegir --",
+    "showAllCharts": "Mostrar todos los gráficos",
+    "hideAllCharts": "Ocultar todos los gráficos",
+    "pinChart": "Fijar gráfico",
+    "pinSuccess": "Gráfico fijado con éxito",
+    "pinError": "Error al fijar gráfico",
+    "chart3DOptions": "Opciones de gráfico 3D",
+    "download2D": "Descargar gráfico como PNG",
+    "download3D": "Descargar gráfico 3D",
+    "chartType": "Tipo de gráfico:",
+    "selectFile": "Seleccionar archivo:",
+    "chooseFilePlaceholder": "-- Elegir archivo --",
+    "local": "Local",
+    "noLocalFile": "No hay archivo local para guardar.",
+    "fileSaved": "Archivo guardado en el panel.",
+    "fileSaveFailed": "Error al guardar el archivo.",
+    "saveToDashboard": "Guardar en el panel",
+    "saved": "Guardado",
+    "chartTypes": {
+      "none": "Ninguno",
+      "bar": "Barras",
+      "line": "Línea",
+      "area": "Área",
+      "pie": "Pastel",
+      "doughnut": "Dona",
+      "polar": "Área polar",
+      "radar": "Radar",
+      "scatter": "Dispersión",
+      "bubble": "Burbuja",
+      "funnel": "Embudo",
+      "waterfall": "Cascada"
+    }
+  },
+  "loading": "Cargando...",
+  "history": {
+    "uploadedFiles": "Archivos subidos",
+    "buttons": {
+      "view": "Ver",
+      "download": "Descargar",
+      "delete": "Eliminar"
+    },
+    "table": {
+      "filename": "📄 Nombre de archivo",
+      "uploadDate": "🗓 Fecha de subida",
+      "viewDownload": "🔍 Ver / ⬇️ Descargar",
+      "delete": "❌ Eliminar",
+      "noFiles": "No se han subido archivos aún."
+    }
+  },
+  "aiInsights": {
+    "fetchError": "Error al obtener insights. Por favor, inténtelo de nuevo.",
+    "explainError": "Error al generar explicación. Por favor, inténtelo de nuevo.",
+    "shareLinkLabel": "Compartir enlace:",
+    "confirmText": "¿Seguro que desea generar insights?",
+    "cancelText": "Cancelar",
+    "proceedText": "Proceder",
+    "dataPrivacyWarning": {
+      "title": "Advertencia de privacidad de datos",
+      "message": "Al continuar, acepta compartir sus datos seleccionados con nuestro servicio IA (Gemini/OpenAI) para generar insights. Se pueden analizar datos sensibles o personales."
+    },
+    "buttons": {
+      "cancel": "Cancelar",
+      "proceed": "Proceder"
+    },
+    "emailInput": {
+      "placeholder": "Ingrese dirección de correo electrónico"
+    },
+    "emailbuttons": {
+      "sendEmail": "Enviar correo"
+    },
+    "exportShare": {
+      "exportTxt": "Exportar .txt",
+      "exportPdf": "Exportar .pdf",
+      "shareLink": "Compartir enlace",
+      "emailLink": "Enviar enlace por correo",
+      "explainInsights": "Explicar insights",
+      "explaining": "Explicando..."
+    },
+    "fileSelector": {
+      "label": "Seleccionar archivo",
+      "chooseOption": "-- Elegir archivo --",
+      "local": "(Local)"
+    },
+    "insightControls": {
+      "generate": "Generar insights",
+      "generating": "Generando..."
+    },
+    "trendDetection": {
+      "title": "Detección de tendencias",
+      "selectNumeric": "Seleccione columna numérica",
+      "selectDate": "Seleccione columna de fecha (opcional)",
+      "detectBtn": "Detectar tendencia",
+      "detecting": "Detectando...",
+      "summary": "Resumen de la tendencia:",
+      "downloadPdf": "Descargar PDF",
+      "downloadTxt": "Descargar TXT",
+      "explain": "Explicar tendencias",
+      "explaining": "Explicando...",
+      "errorDetect": "Error al detectar la tendencia. Por favor, inténtelo de nuevo.",
+      "errorExplain": "Error al generar explicación. Por favor, inténtelo de nuevo."
+    }
+  },
+  "chatWithFile": {
+    "title": "Chatear con los datos de tu archivo",
+    "selectOrUpload": "Seleccionar o subir archivo:",
+    "chooseFile": "-- Elegir archivo --",
+    "askQuestion": "Haz una pregunta sobre tus datos:",
+    "placeholder": "Escribe tu pregunta aquí...",
+    "thinking": "Pensando...",
+    "ask": "Preguntar",
+    "aiResponse": "Respuesta IA:",
+    "downloadPdf": "Descargar como PDF",
+    "downloadTxt": "Descargar como TXT"
+  },
+  "Selected file is empty or invalid.": "El archivo seleccionado está vacío o no es válido.",
+  "Failed to parse the Excel file.": "Error al analizar el archivo Excel.",
+  "Failed to read the file.": "Error al leer el archivo.",
+  "Please enter a question.": "Por favor, ingrese una pregunta.",
+  "No data to analyze. Please select or upload a valid file.": "No hay datos para analizar. Por favor seleccione o suba un archivo válido.",
+  "Failed to get a response. Please try again.": "Error al obtener respuesta. Por favor, inténtelo de nuevo."
+}

@@ -1,0 +1,174 @@
+{
+  "welcome": "Willkommen {{name}}!",
+  "dashboardMessage": "Ihre Analysen und Uploads werden hier angezeigt.",
+  "submit": "Senden",
+  "download": "Herunterladen",
+  "generateInsights": "Insights generieren",
+  "logout": "Abmelden",
+  "dashboard": {
+    "welcomeMessage": "Sie haben sich erfolgreich angemeldet. Ihre Analysen und Uploads werden hier angezeigt.",
+    "pinnedCharts": "Ihre angehefteten Diagramme",
+    "type": "Typ",
+    "axis": "X: {{x}}, Y: {{y}}",
+    "unpin": "Lösen"
+  },
+  "settings": {
+    "updateProfile": "Profil aktualisieren",
+    "updateSuccess": "Profil erfolgreich aktualisiert!",
+    "updateFail": "Aktualisierung fehlgeschlagen.",
+    "namePlaceholder": "Ihr Name",
+    "emailPlaceholder": "E-Mail-Adresse",
+    "passwordPlaceholder": "Neues Passwort (optional)",
+    "updateButton": "Profil aktualisieren"
+  },
+
+  "sidebar": {
+    "dashboard": "Dashboard",
+    "uploadExcel": "Excel hochladen",
+    "analyzeData": "Daten analysieren",
+    "history": "Verlauf",
+    "aiInsights": "KI-Insights",
+    "chatWithFile": "Chat mit Datei",
+    "settings": "Einstellungen",
+    "logoAlt": "SheetSense-Logo"
+  },
+  "upload": {
+    "title": "Excel-Datei hochladen",
+    "supportedFormats": "Unterstützte Formate: .xls, .xlsx",
+    "pleaseSelectFile": "Bitte wählen Sie eine Datei aus.",
+    "fileLoadedLocally": "✅ Datei lokal geladen. Sie können jetzt analysieren oder hochladen.",
+    "failedToParseFile": "❌ Fehler beim Parsen der Datei.",
+    "failedToReadFile": "❌ Fehler beim Lesen der Datei.",
+    "uploadButton": "Hochladen",
+    "uploadSuccess": "✅ Datei erfolgreich auf den Server hochgeladen.",
+    "uploadFailed": "❌ Hochladen fehlgeschlagen.",
+    "chooseFile": "Datei auswählen",
+    "analyzeWithoutSaving": "Ohne Speichern analysieren",
+    "uploadToServer": "Auf Server hochladen"
+  },
+  "analyze": {
+    "title": "Analysieren Sie Ihre Daten",
+    "chart": "Diagramm",
+    "xAxis": "X-Achse",
+    "yAxis": "Y-Achse",
+    "chooseOption": "-- Wählen --",
+    "showAllCharts": "Alle Diagramme anzeigen",
+    "hideAllCharts": "Alle Diagramme ausblenden",
+    "pinChart": "Diagramm anheften",
+    "pinSuccess": "Diagramm erfolgreich angeheftet",
+    "pinError": "Diagramm konnte nicht angeheftet werden",
+    "chart3DOptions": "3D-Diagrammoptionen",
+    "download2D": "2D-Diagramm als PNG herunterladen",
+    "download3D": "3D-Diagramm herunterladen",
+    "chartType": "Diagrammtyp:",
+    "selectFile": "Datei auswählen:",
+    "chooseFilePlaceholder": "-- Datei wählen --",
+    "local": "Lokal",
+    "noLocalFile": "Keine lokale Datei zum Speichern vorhanden.",
+    "fileSaved": "Datei im Dashboard gespeichert.",
+    "fileSaveFailed": "Datei konnte nicht gespeichert werden.",
+    "saveToDashboard": "Im Dashboard speichern",
+    "saved": "Gespeichert",
+    "chartTypes": {
+      "none": "Keine",
+      "bar": "Balken",
+      "line": "Linie",
+      "area": "Fläche",
+      "pie": "Kreis",
+      "doughnut": "Ring",
+      "polar": "Polarfläche",
+      "radar": "Radar",
+      "scatter": "Punkte",
+      "bubble": "Blase",
+      "funnel": "Trichter",
+      "waterfall": "Wasserfall"
+    }
+  },
+  "loading": "Lädt...",
+  "history": {
+    "uploadedFiles": "Hochgeladene Dateien",
+    "buttons": {
+      "view": "Ansehen",
+      "download": "Herunterladen",
+      "delete": "Löschen"
+    },
+    "table": {
+      "filename": "📄 Dateiname",
+      "uploadDate": "🗓 Hochladedatum",
+      "viewDownload": "🔍 Ansehen / ⬇️ Herunterladen",
+      "delete": "❌ Löschen",
+      "noFiles": "Noch keine Dateien hochgeladen."
+    }
+  },
+  "aiInsights": {
+    "fetchError": "Fehler beim Abrufen der Insights. Bitte versuchen Sie es erneut.",
+    "explainError": "Fehler beim Erstellen der Erklärung. Bitte versuchen Sie es erneut.",
+    "shareLinkLabel": "Link teilen:",
+    "confirmText": "Sind Sie sicher, dass Sie Insights generieren möchten?",
+    "cancelText": "Abbrechen",
+    "proceedText": "Fortfahren",
+    "dataPrivacyWarning": {
+      "title": "Datenschutzwarnung",
+      "message": "Mit dem Fortfahren stimmen Sie zu, Ihre ausgewählten Daten mit unserem KI-Dienst (Gemini/OpenAI) zu teilen, um Insights zu generieren. Sensible oder persönliche Daten können analysiert werden."
+    },
+    "buttons": {
+      "cancel": "Abbrechen",
+      "proceed": "Fortfahren"
+    },
+    "emailInput": {
+      "placeholder": "E-Mail-Adresse eingeben"
+    },
+    "emailbuttons": {
+      "sendEmail": "E-Mail senden"
+    },
+    "exportShare": {
+      "exportTxt": "Als .txt exportieren",
+      "exportPdf": "Als .pdf exportieren",
+      "shareLink": "Link teilen",
+      "emailLink": "Per E-Mail senden",
+      "explainInsights": "Insights erklären",
+      "explaining": "Erklärt..."
+    },
+    "fileSelector": {
+      "label": "Datei auswählen",
+      "chooseOption": "-- Datei wählen --",
+      "local": "(Lokal)"
+    },
+    "insightControls": {
+      "generate": "Insights generieren",
+      "generating": "Generierung läuft..."
+    },
+    "trendDetection": {
+      "title": "Trenderkennung",
+      "selectNumeric": "Numerische Spalte auswählen",
+      "selectDate": "Datumsspalte auswählen (optional)",
+      "detectBtn": "Trend erkennen",
+      "detecting": "Erkennung läuft...",
+      "summary": "Trendzusammenfassung:",
+      "downloadPdf": "PDF herunterladen",
+      "downloadTxt": "TXT herunterladen",
+      "explain": "Trends erklären",
+      "explaining": "Erklärt...",
+      "errorDetect": "Fehler bei der Trenderkennung. Bitte versuchen Sie es erneut.",
+      "errorExplain": "Fehler beim Erstellen der Erklärung. Bitte versuchen Sie es erneut."
+    }
+  },
+  "chatWithFile": {
+    "title": "Chatten Sie mit Ihren Datei-Daten",
+    "selectOrUpload": "Datei auswählen oder hochladen:",
+    "chooseFile": "-- Datei wählen --",
+    "askQuestion": "Stellen Sie eine Frage zu Ihren Daten:",
+    "placeholder": "Geben Sie hier Ihre Frage ein...",
+    "thinking": "Denke nach...",
+    "ask": "Fragen",
+    "aiResponse": "KI-Antwort:",
+    "downloadPdf": "Als PDF herunterladen",
+    "downloadTxt": "Als TXT herunterladen"
+  },
+  "Selected file is empty or invalid.": "Die ausgewählte Datei ist leer oder ungültig.",
+  "Failed to parse the Excel file.": "Fehler beim Parsen der Excel-Datei.",
+  "Failed to read the file.": "Fehler beim Lesen der Datei.",
+  "Please enter a question.": "Bitte geben Sie eine Frage ein.",
+  "No data to analyze. Please select or upload a valid file.": "Keine Daten zur Analyse vorhanden. Bitte wählen oder laden Sie eine gültige Datei hoch.",
+  "Failed to get a response. Please try again.": "Fehler bei der Antwort. Bitte versuchen Sie es erneut."
+}

@@ -1,0 +1,174 @@
+{
+  "welcome": "Bienvenue {{name}} !",
+  "dashboardMessage": "Vos analyses et téléchargements apparaîtront ici.",
+  "submit": "Envoyer",
+  "download": "Télécharger",
+  "generateInsights": "Générer des insights",
+  "logout": "Déconnexion",
+  "dashboard": {
+    "welcomeMessage": "Vous vous êtes connecté avec succès. Vos analyses et téléchargements apparaîtront ici.",
+    "pinnedCharts": "Vos graphiques épinglés",
+    "type": "Type",
+    "axis": "X : {{x}}, Y : {{y}}",
+    "unpin": "Détacher"
+  },
+  "settings": {
+    "updateProfile": "Mettre à jour le profil",
+    "updateSuccess": "Profil mis à jour avec succès !",
+    "updateFail": "Échec de la mise à jour.",
+    "namePlaceholder": "Votre nom",
+    "emailPlaceholder": "Adresse e-mail",
+    "passwordPlaceholder": "Nouveau mot de passe (facultatif)",
+    "updateButton": "Mettre à jour le profil"
+  },
+
+  "sidebar": {
+    "dashboard": "Tableau de bord",
+    "uploadExcel": "Télécharger Excel",
+    "analyzeData": "Analyser les données",
+    "history": "Historique",
+    "aiInsights": "Insights IA",
+    "chatWithFile": "Discussion avec fichier",
+    "settings": "Paramètres",
+    "logoAlt": "Logo SheetSense"
+  },
+  "upload": {
+    "title": "Télécharger un fichier Excel",
+    "supportedFormats": "Formats pris en charge : .xls, .xlsx",
+    "pleaseSelectFile": "Veuillez sélectionner un fichier.",
+    "fileLoadedLocally": "✅ Fichier chargé localement. Vous pouvez maintenant analyser ou télécharger.",
+    "failedToParseFile": "❌ Échec de l'analyse du fichier.",
+    "failedToReadFile": "❌ Échec de la lecture du fichier.",
+    "uploadButton": "Télécharger",
+    "uploadSuccess": "✅ Fichier téléchargé sur le serveur.",
+    "uploadFailed": "❌ Échec du téléchargement.",
+    "chooseFile": "Choisir un fichier",
+    "analyzeWithoutSaving": "Analyser sans enregistrer",
+    "uploadToServer": "Télécharger sur le serveur"
+  },
+  "analyze": {
+    "title": "Analysez vos données",
+    "chart": "Graphique",
+    "xAxis": "Axe X",
+    "yAxis": "Axe Y",
+    "chooseOption": "-- Choisir --",
+    "showAllCharts": "Afficher tous les graphiques",
+    "hideAllCharts": "Cacher tous les graphiques",
+    "pinChart": "Épingler le graphique",
+    "pinSuccess": "Graphique épinglé avec succès",
+    "pinError": "Échec de l'épinglage du graphique",
+    "chart3DOptions": "Options de graphique 3D",
+    "download2D": "Télécharger le graphique en PNG",
+    "download3D": "Télécharger le graphique 3D",
+    "chartType": "Type de graphique :",
+    "selectFile": "Sélectionner un fichier :",
+    "chooseFilePlaceholder": "-- Choisir un fichier --",
+    "local": "Local",
+    "noLocalFile": "Aucun fichier local à enregistrer.",
+    "fileSaved": "Fichier enregistré dans le tableau de bord.",
+    "fileSaveFailed": "Échec de l'enregistrement du fichier.",
+    "saveToDashboard": "Enregistrer dans le tableau de bord",
+    "saved": "Enregistré",
+    "chartTypes": {
+      "none": "Aucun",
+      "bar": "Barres",
+      "line": "Lignes",
+      "area": "Zone",
+      "pie": "Camembert",
+      "doughnut": "Anneau",
+      "polar": "Zone polaire",
+      "radar": "Radar",
+      "scatter": "Nuage de points",
+      "bubble": "Bulles",
+      "funnel": "Entonnoir",
+      "waterfall": "Cascade"
+    }
+  },
+  "loading": "Chargement...",
+  "history": {
+    "uploadedFiles": "Fichiers téléchargés",
+    "buttons": {
+      "view": "Voir",
+      "download": "Télécharger",
+      "delete": "Supprimer"
+    },
+    "table": {
+      "filename": "📄 Nom du fichier",
+      "uploadDate": "🗓 Date de téléchargement",
+      "viewDownload": "🔍 Voir / ⬇️ Télécharger",
+      "delete": "❌ Supprimer",
+      "noFiles": "Aucun fichier téléchargé pour l'instant."
+    }
+  },
+  "aiInsights": {
+    "fetchError": "Échec de la récupération des insights. Veuillez réessayer.",
+    "explainError": "Échec de la génération de l'explication. Veuillez réessayer.",
+    "shareLinkLabel": "Partager le lien :",
+    "confirmText": "Êtes-vous sûr de vouloir générer des insights ?",
+    "cancelText": "Annuler",
+    "proceedText": "Continuer",
+    "dataPrivacyWarning": {
+      "title": "Avertissement sur la confidentialité des données",
+      "message": "En continuant, vous acceptez de partager vos données sélectionnées avec notre service IA (Gemini/OpenAI) pour générer des insights. Des données sensibles ou personnelles peuvent être analysées."
+    },
+    "buttons": {
+      "cancel": "Annuler",
+      "proceed": "Continuer"
+    },
+    "emailInput": {
+      "placeholder": "Entrez l'adresse e-mail"
+    },
+    "emailbuttons": {
+      "sendEmail": "Envoyer l'e-mail"
+    },
+    "exportShare": {
+      "exportTxt": "Exporter .txt",
+      "exportPdf": "Exporter .pdf",
+      "shareLink": "Partager le lien",
+      "emailLink": "Envoyer par e-mail",
+      "explainInsights": "Expliquer les insights",
+      "explaining": "Explication en cours..."
+    },
+    "fileSelector": {
+      "label": "Sélectionner un fichier",
+      "chooseOption": "-- Choisir un fichier --",
+      "local": "(Local)"
+    },
+    "insightControls": {
+      "generate": "Générer des insights",
+      "generating": "Génération en cours..."
+    },
+    "trendDetection": {
+      "title": "Détection de tendance",
+      "selectNumeric": "Sélectionnez la colonne numérique",
+      "selectDate": "Sélectionnez la colonne date (optionnel)",
+      "detectBtn": "Détecter la tendance",
+      "detecting": "Détection en cours...",
+      "summary": "Résumé de la tendance :",
+      "downloadPdf": "Télécharger le PDF",
+      "downloadTxt": "Télécharger le TXT",
+      "explain": "Expliquer les tendances",
+      "explaining": "Explication en cours...",
+      "errorDetect": "Échec de la détection de tendance. Veuillez réessayer.",
+      "errorExplain": "Échec de la génération de l'explication. Veuillez réessayer."
+    }
+  },
+  "chatWithFile": {
+    "title": "Discussion avec vos données de fichier",
+    "selectOrUpload": "Sélectionnez ou téléchargez un fichier :",
+    "chooseFile": "-- Choisir un fichier --",
+    "askQuestion": "Posez une question sur vos données :",
+    "placeholder": "Tapez votre question ici...",
+    "thinking": "Réflexion...",
+    "ask": "Poser",
+    "aiResponse": "Réponse IA :",
+    "downloadPdf": "Télécharger en PDF",
+    "downloadTxt": "Télécharger en TXT"
+  },
+  "Selected file is empty or invalid.": "Le fichier sélectionné est vide ou invalide.",
+  "Failed to parse the Excel file.": "Échec de l'analyse du fichier Excel.",
+  "Failed to read the file.": "Échec de la lecture du fichier.",
+  "Please enter a question.": "Veuillez entrer une question.",
+  "No data to analyze. Please select or upload a valid file.": "Aucune donnée à analyser. Veuillez sélectionner ou télécharger un fichier valide.",
+  "Failed to get a response. Please try again.": "Échec de la réception de la réponse. Veuillez réessayer."
+}
