@@ -10,7 +10,7 @@ const Logo = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
       >
-        <Link to="/"><img src="./logo.png" alt="SheetSense Logo" className="w-12 h-12" /></Link>
+        <Link to="/"><img src="./logo.png" alt="Excelerate Logo" className="w-12 h-12" /></Link>
       </motion.header>
   )
 }

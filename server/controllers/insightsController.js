@@ -118,7 +118,7 @@ export const emailSharedInsight = async (req, res) => {
 
     const textMessage = `Hi,
 
-Someone shared AI-generated insights with you via SheetSense.
+Someone shared AI-generated insights with you via Excelerate.
 
 File: ${shared.fileName}
 View Online: ${link}
@@ -127,14 +127,14 @@ Here are the insights:
 ${formattedInsightsText}
 
 Best regards,
-SheetSense Team
+Excelerate Team
 
-You received this email because someone used SheetSense to share insights with you.`;
+You received this email because someone used Excelerate to share insights with you.`;
 
     const htmlMessage = `
       <div style="font-family: Arial, sans-serif; color: #333; line-height: 1.6;">
         <p>Hi,</p>
-        <p>Someone shared AI-generated insights with you via <strong>SheetSense</strong>.</p>
+        <p>Someone shared AI-generated insights with you via <strong>Excelerate</strong>.</p>
         <p>
           <strong>File:</strong> ${shared.fileName}<br>
           <strong>View Online:</strong> <a href="${link}" target="_blank">${link}</a>
@@ -143,15 +143,15 @@ You received this email because someone used SheetSense to share insights with y
         <ul>
           ${formattedInsightsHtml}
         </ul>
-        <p>Best regards,<br>SheetSense Team</p>
+        <p>Best regards,<br>Excelerate Team</p>
         <hr>
-        <small>You received this email because someone used SheetSense to share insights with you.</small>
+        <small>You received this email because someone used Excelerate to share insights with you.</small>
       </div>
     `;
 
     await sendEmail({
       to: email,
-      subject: "AI Insights Shared with You via SheetSense",
+      subject: "AI Insights Shared with You via Excelerate",
       text: textMessage,
       html: htmlMessage,
     });

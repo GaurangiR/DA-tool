@@ -11,7 +11,7 @@ const Hero = () => {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.6, delay: 0.2 }}
         >
-          <h2 className="text-4xl font-bold text-[#2E3C43] outfit">Welcome to SheetSense</h2>
+          <h2 className="text-4xl font-bold text-[#2E3C43] outfit">Welcome to Excelerate</h2>
           <p className="text-[#546E7A] text-lg outfit">
             Upload Excel files, analyze your data with 2D/3D charts, gain insights and download reports — all in one smart platform.
           </p>
@@ -39,7 +39,7 @@ const Hero = () => {
         >
           <img
             src="/homeright.png"
-            alt="SheetSense Dashboard Preview"
+            alt="Excelerate Dashboard Preview"
             className="w-full max-w-md mx-auto"
           />
         </motion.div>

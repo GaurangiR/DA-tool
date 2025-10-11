@@ -109,7 +109,7 @@ function Sidebar() {
               <motion.div variants={itemVariants} className="flex items-center gap-3 mb-8">
                 <img src="/logo.png" alt={t("sidebar.logoAlt")} className="w-10 h-10" />
                 <h2 className="text-2xl font-bold outfit tracking-wide text-white">
-                  SheetSense
+                  Excelerate
                 </h2>
               </motion.div>
 
@@ -136,7 +136,7 @@ function Sidebar() {
       >
         <motion.div variants={itemVariants} className="flex items-center gap-3 mb-8">
           <img src="/logo.png" alt={t("sidebar.logoAlt")} className="w-10 h-10" />
-          <h2 className="text-2xl font-bold outfit tracking-wide text-white">SheetSense</h2>
+          <h2 className="text-2xl font-bold outfit tracking-wide text-white">Excelerate</h2>
         </motion.div>
 
         {items.map((item, index) => (

@@ -2,7 +2,7 @@ import { createContext, useState, useContext, useEffect } from "react";
 import CryptoJS from "crypto-js";
 
 const LocalFileContext = createContext();
-const SECRET = "sheetSenseSecretKey";
+const SECRET = "ExcelerateSecretKey";
 
 export const LocalFileProvider = ({ children }) => {
   const [localFile, setLocalFile] = useState(null);

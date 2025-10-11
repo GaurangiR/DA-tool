@@ -10,7 +10,7 @@ const sendEmail = async ({ to, subject, text }) => {
   });
 
   const mailOptions = {
-    from: `"SheetSense" <${process.env.EMAIL_USER}>`,
+    from: `"Excelerate" <${process.env.EMAIL_USER}>`,
     to,
     subject,
     text,

@@ -108,7 +108,7 @@ function Sidebar() {
               >
                 <img
                   src="./logo.png"
-                  alt="SheetSense Logo"
+                  alt="Excelerate Logo"
                   className="w-10 h-10"
                 />
                 <h2 className="text-2xl font-bold outfit tracking-wide text-white">

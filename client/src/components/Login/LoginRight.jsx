@@ -7,7 +7,7 @@ const LoginRight = () => {
         Access Your Smart Excel Analysis Dashboard
       </h2>
       <p className="text-blue-800 mb-6">
-        Log in to SheetSense and explore AI-powered insights, interactive
+        Log in to Excelerate and explore AI-powered insights, interactive
         charts, and report downloads — all from your spreadsheets.
       </p>
       <img
