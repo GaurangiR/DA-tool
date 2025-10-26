@@ -44,7 +44,7 @@ pipeline {
         
         stage('Install Backend Dependencies') {
             steps {
-                dir('backend') {
+                dir('server') {
                     echo '=== Installing backend dependencies ==='
                     bat 'npm i'
                 }
@@ -53,18 +53,18 @@ pipeline {
         
         stage('Install Frontend Dependencies') {
             steps {
-                dir('frontend') {
+                dir('client') {
                     echo '=== Installing frontend dependencies ==='
                     bat 'npm i'
                 }
             }
         }
         
-        stage('Build Frontend') {
+        stage('Build Client') {
             steps {
-                dir('frontend') {
+                dir('client') {
                     echo '=== Building frontend ==='
-                    bat 'npm run dev'
+                    bat 'npm run build'
                 }
             }
         }
